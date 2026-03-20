@@ -72,7 +72,7 @@ if 'theme' not in st.session_state:
 if 'lang' not in st.session_state:
     st.session_state.lang = 'Hindi'
 if 'gemini_api_key' not in st.session_state:
-    st.session_state.gemini_api_key = 'AIzaSyCyUJKrldYN4CxsVFCB5iVUV5fPUsvKiJM'
+    st.session_state.gemini_api_key = ''
 
 @st.cache_data(show_spinner=False)
 def translate_text(text, dest_lang):
